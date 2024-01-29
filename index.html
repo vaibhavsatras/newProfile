@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Port folio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46bdfef9f5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="vaibhavlogo.jpg" class="logo">
+                <ul id="sidemenu">
+
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class=" fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+            <h1><span> Vaibhav</span> &nbsp;Satras</h1><br>
+           <p>FRONT&nbsp; END &nbsp; DEVELOPER</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <------------------------------About-------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="vaibhav3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><h3>Hi, I'am Vaibhav, &nbsp; Nice To Meet you.</h3><br>
+                        I have over 2.7 Years of experiance in wide range of design webpages.
+                        <br>
+                        I'am also multi-disciplinary maker from 2.7 years in wide rage of design disciplines, front end developer.
+                         I don't like to define myself by the work I've done. I've define myself by the work I want to do. Skills can be taught, personality is inherent. Iprefer to keep learning, continue challenging myself, 
+                         and do intersting things that matter. 
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                    </div>
+                    <div class="tab-contains active-tab" id="Skills">
+                        <ul>
+                            <li><span> Front End</span><br>Design Webpages Using CSS, HTML 
+                                & JavaScript, <br>React Js & Redux-Toolkit along with Tailwind CSS</li>
+                            <li><span> Back End</span><br>Good Knowledge about Server side i.e. Node Js. and MongoDB<br> Develop SPA (Single Page Application), Design and implement visually aesthetic user interfaces</li>
+                            <li><span> Responsive Website</span><br>Design & Hosting Responsive Website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Experiance">
+                        <ul>
+                            <li><span> 2021 To Present</span><br>Front End Developer</li>
+                            <li><span>(Electropneumatics & Hydraulics(Ind.) Pvt. Ltd.)</span><br></li>
+                            <li><span> 2017 To 2021</span><br>SAP Consultant</li>
+                            <li><span>(Electropneumatics & Hydraulics(Ind.) Pvt. Ltd.)</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Education">
+                        <ul>
+                            <li><span> Feb - 2012</span><br>SSC</li>
+                            <li><span> March - 2014</span><br>HSC</li>
+                            <li><span> April - 2017</span><br>Bsc.(Comp. Science)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!------------Servicess------------------------------------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Technical Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>System Infrastructure, web architecture, and communication protolocols provided by us,
+                    delivering to you interactive front ends along with robust backends.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML5/CSS Development</h2>
+                    <p>We feed interactive elements using W3C stanard & cross-browser compatibility coding standards to put wind in your digital sails,
+                        also we make your website user friendly.
+
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen-ruler"></i>
+                    <h2>UI Design and Development
+                    </h2>
+                    <p>With our comperhensive front end web development services, you can set up best-in-class, responsive and robust content management system for your business.
+
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------------PortFolio---------------------------->
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="app6.jfif">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>Developed and implemented a new checkout system Using React and Redux-Toolkit. Collaborate with cross-functional teams Optimize
+                             website performance.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="app7.jfif">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>Developed and implemented a new Shopping Website using HTMl CSS and React Js. I Have been designed this E-Commerce website where buyers can see a catlog of products and purchase them.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="app11.jfif">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>Developed and implemented a new Shopping Website using HTMl CSS and React Js. I Have been designed this E-Commerce website where buyers can see a catlog of products and purchase them.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+
+    <!-------------------Contact------------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title-2">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>vaibhavsatras5@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9765592502</p>
+
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    
+                    <a href="Vaibhav SAP 2 Resume.docx" download class="btn btn2" id="btn3">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" name="submit" class="btn btn2" id="btn1">Submit</button>
+                    </form>
+                    <div id="msg"></div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>All rights reserved @ VBS</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontains = document.getElementsByClassName("tab-contains");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove('active-link');
+
+            }
+            for (tabcontent of tabcontains) {
+                tabcontent.classList.remove('active-tab');
+
+            }
+
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz9L-H8geHIdpdrVCEQTwazM7qIvq32qFyqEf2uvhD8ZYAukY-SIW_5DVc3p3FO2aT9Dw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+        const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(()=>{
+                msg.innerHTML=""
+            }, 5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+</body>
+</html>
